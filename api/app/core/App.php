@@ -8,7 +8,7 @@ class App
 
     public function __construct()
     {
-        $this->log = Log::getInstance();
+        $this->log = Log::getInstance(env('LOG_PATH'));
 
         $this->init();
     }
