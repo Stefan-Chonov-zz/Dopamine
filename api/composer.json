@@ -1,0 +1,12 @@
+{
+    "name": "stefa/dopamine-api",
+    "description": "Restful API requested by 'Dopamine'",
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "ext-json": "*",
+      "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
